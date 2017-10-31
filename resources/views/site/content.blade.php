@@ -70,20 +70,30 @@
   <div class="container" id="c">
     <div class="row centered">
       <h2>Клиенты</h2>
-      <div class="col-lg-2 col-lg-offset-1">
-        <img src="{{ asset('assets/img/par.jpg') }}" alt="img">
+      <div class="cli">
+        <div class="col-lg-2 col-lg-offset-1">
+          <img src="{{ asset('assets/img/par.jpg') }}" alt="img">
+        </div>
       </div>
-      <div class="col-lg-2">
-        <img src="{{ asset('assets/img/par2.jpg') }}" alt="img">
+      <div class="cli">
+        <div class="col-lg-2">
+          <img src="{{ asset('assets/img/par2.jpg') }}" alt="img">
+        </div>
       </div>
-      <div class="col-lg-2">
-        <img src="{{ asset('assets/img/par3.jpg') }}" alt="img">
+      <div class="cli">
+        <div class="col-lg-2">
+          <img src="{{ asset('assets/img/par3.jpg') }}" alt="img">
+        </div>
       </div>
-      <div class="col-lg-2">
-        <img src="{{ asset('assets/img/par4.jpg') }}" alt="img">
+      <div class="cli">
+        <div class="col-lg-2">
+          <img src="{{ asset('assets/img/par4.jpg') }}" alt="img">
+        </div>
       </div>
-      <div class="col-lg-2">
-        <img src="{{ asset('assets/img/par5.jpg') }}" alt="img">
+      <div class="cli">
+        <div class="col-lg-2">
+          <img src="{{ asset('assets/img/par5.jpg') }}" alt="img">
+        </div>
       </div>
     </div>
   </div>
@@ -124,17 +134,14 @@
            <div class="form-group">
               <input type="submit" class="btn btn-info" value="Отправить" />
            </div>
-
            {{ csrf_field() }}
-
-    </form>
-
-  </div>
+         </form>
+       </div>
 </div>
 <div id="dg">
   <div class="container">
     <div class="row centered">
-      <h4>Последние работы</h4>
+      <h4>Адаптивный дизайн</h4>
       <br>
       <div class="col-lg-4">
         <div class="tilt">
@@ -143,7 +150,7 @@
       </div>
       <div class="col-lg-4">
         <div class="tilt">
-          <a href="#"><img src="{{ asset('assets/img/2.png') }}" alt="img"></a>
+          <a href="#"><img src="{{ asset('assets/img/2.jpg') }}" alt="img"></a>
         </div>
       </div>
       <div class="col-lg-4">
@@ -154,16 +161,16 @@
     </div>
   </div>
 </div>
-<div class="container wb">
-  <div class="row centered">
-    <br><br>
-    <div class="col-lg-8 col-lg-offset-2">
-      <h4>Мы создаем сайт</h4>
-      <p>Praesentium voluptatem sit ab, est deserunt dolorem repudiandae cumque cum, minima excepturi velit in ipsum possimus. Impedit</p>
-      <p><br><br></p>
-    </div>
-    <div class="col-lg-12 col-lg-offset-2">
-      <img  src="{{ asset('assets/img/lap.jpg') }}" alt="img" class="img-responsive">
+<div id="wd">
+  <div class="container">
+    <div class="row centered"><br>
+      <div class="col-lg-8 col-lg-offset-2">
+        <h3>Аренда серверов</h3>
+        <p>Выбирая хостинг для сайта, следует учитывать скорость доступа и наработку на отказ. Старайтесь использовать тот хостинг, который обеспечит наилучшую скорость доступа к сайту и наименьшее время, в течение которого сайт может быть недоступен из-за технических неполадок.</p>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1">
+        <img  src="{{ asset('assets/img/serv.jpg') }}" alt="img" class="img-responsive">
+      </div>
     </div>
   </div>
 </div>
@@ -172,7 +179,7 @@
     <div class="row centered">
       <div class="col-lg-8 col-lg-offset-2">
         <h4>Разработка сайтов</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum distinc incidunt!</p>
+        <p>Мы умеем создавать работающие сайты, интернет-магазины и web-сервисы. Вам понравится и захочется еще!</p>
       </div>
     </div>
   </div>

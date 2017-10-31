@@ -149,7 +149,7 @@ hr {
 
 #Portfolio img {
   width: 300px;
-  height: 250px;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -159,11 +159,49 @@ hr {
   padding-bottom: 50px;
 }
 
+#c img {
+  width: 150px;
+  height: auto;
+}
+
 #team {
   padding-top:60px;
   padding-bottom: 50px;
   background-color: #b3cdb4;
   width: 100%;
+}
+
+.lg img {
+  width: 150px;
+  height: auto;
+}
+
+.lg {
+  background: #ededed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.lg h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cli {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.cli:hover {
+  -webkit-transform: skewX(5deg);
+  -moz-transform: skewX(5deg);
+  -o-transform: skewX(5deg);
+  -ms-transform: skewX(5deg);
+  transform: skewX(5deg);
 }
 
 #n {
@@ -183,11 +221,11 @@ hr {
 }
 
 #dg h4 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #dg img {
-  width: 200px;
+  width: 300px;
   height: 100%;
 }
 
@@ -207,21 +245,9 @@ hr {
   transform: rotate(-10deg);
 }
 
-.lg img {
-  width: 100px;
-  height: 100px;
-}
-
-.lg {
-  background: #ededed;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-.lg h4 {
-  font-size: 20px;
-  font-weight: 400;
+#wd {
+  width: 100%;
+  background-color: #f9fcaa;
 }
 
 #r {
