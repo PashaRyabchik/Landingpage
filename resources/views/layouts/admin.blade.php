@@ -8,7 +8,7 @@
     <link rel="stylesheet" href= "{{ asset('assets/css/font-awesome.min.css') }}" >
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" >
     <script src="//cdn.ckeditor.com/4.7.1/basic/ckeditor.js"></script>
-
+    <link rel="shortcut icon" href="{{ asset('assets/img/adminicon.png') }}" type="image/x-icon">
   </head>
   <body>
     <header>

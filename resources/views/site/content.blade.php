@@ -118,25 +118,35 @@
 </div>
 @endif
 <div class="container" id="n">
-      <h2>Написать нам</h2>
-        <form role="form" action="{{ route('home') }}" method="post">
-           <div class="form-group">
-             <label for="name">Name:</label>
-              <input name="name" type="text"  class="form-control" placeholder="Имя"/>
-           </div>
-           <div class="form-group">
-              <label for="email">E-mail:</label>
+    <h2>Написать нам</h2>
+    <div class="row col-sm-offset-2">
+      <form class="form-horizontal" role="form" action="{{ url('/') }}" method="post">
+         <div class="form-group">
+             <label class="control-label col-sm-2" for="name">Ваше имя:</label>
+             <div class="col-sm-6">
+               <input name="name" type="text"  class="form-control" placeholder="Имя"/>
+             </div>
+         </div>
+         <div class="form-group">
+            <label class="control-label col-sm-2" for="email">E-mail:</label>
+            <div class="col-sm-6">
               <input name="email" type="email" class="form-control" placeholder="E-mail"/>
-           </div>
-           <div class="form-group">
+            </div>
+         </div>
+         <div class="form-group">
+           <label class="control-label col-sm-2" for="email">Ваше сообщение:</label>
+           <div class="col-sm-6">
              <textarea name="text" class="form-control" placeholder="Сообщение"></textarea>
            </div>
-           <div class="form-group">
+         </div>
+         <div class="form-group">
+            <div class="col-sm-4 col-sm-offset-2">
               <input type="submit" class="btn btn-info" value="Отправить" />
-           </div>
-           {{ csrf_field() }}
-         </form>
-       </div>
+            </div>
+         </div>
+         {{ csrf_field() }}
+       </form>
+    </div>
 </div>
 <div id="dg">
   <div class="container">
@@ -184,6 +194,7 @@
     </div>
   </div>
 </div>
+<a href="#" id="top"><img src="{{ asset('assets/img/up.png') }}"></a>
 <div id="f">
   <div class="container">
     <div class="row centered">

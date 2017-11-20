@@ -8,6 +8,7 @@ use App\Service;
 use App\Portfolio;
 use App\People;
 use Mail;
+use Validator;
 
 class IndexController extends Controller
 {

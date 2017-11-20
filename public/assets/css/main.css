@@ -74,6 +74,22 @@ hr {
   letter-spacing: 1px;
 }
 
+#top {
+  float: left;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  font-size: 150%;
+  position: fixed;
+  right: 0;
+}
+
+#top img {
+  width: 50px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
 #headerwrap {
   background: url(../img/header.jpg) no-repeat center top;
   margin-top: -10px;
